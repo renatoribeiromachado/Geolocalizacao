@@ -1,9 +1,9 @@
 <?php
     // CONFIGRAÇÕES DO BANCO ####################
     define('HOST', 'localhost');
-    define('USER', 'intecbrasil_intec');
-    define('PASS', '010211admin123$#@!');
-    define('DBSA', 'intecbrasil_intec_bkp');
+    define('USER', '');
+    define('PASS', '');
+    define('DBSA', '');
     
     function conectar(){
         try{
