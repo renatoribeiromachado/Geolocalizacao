@@ -22,7 +22,7 @@
         <!--HEADER-->
         <div class="container-fluid parallax2">
             <div class="col-md-12">
-                <?php include "https://www.intecbrasil.com.br/Intec/admin/inc/header.php";?>
+                <?php include "inc/header.php";?>
             </div>
             <!--MENU BRAND-->   
             <div class="col-md-3 navbar navbar-default">
