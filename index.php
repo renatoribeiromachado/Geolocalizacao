@@ -38,7 +38,7 @@
                     <ul class="nav navbar-nav">
                         <!--RETURN-->
                         <li role="presentation">
-                            <a href="https://www.intecbrasil.com.br/Intec/admin/painel.php" title="Sistema Intec">
+                            <a href="painel.php" title="Sistema">
                                 <i class="glyphicon glyphicon-home"></i> RETORNAR AO SISTEMA INTEC
                             </a>
                         </li>
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <?php include "https://www.intecbrasil.com.br/Intec-interna/admin/inc/footer.html";?>
+        <?php include "inc/footer.html";?>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script> 
         <script>
