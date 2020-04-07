@@ -15,7 +15,7 @@
     <link href="css/ui-lightness/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/reset.css" rel="stylesheet"/>
     <link href="css/admin.css" rel="stylesheet"/>
-    <title>GEOLOCALIZAÇÃO</title>  
+    <title>GEOLOCALIZAÇÃO API - GOOGLE MAPS</title>  
 </head>
 <html>
     <body>
