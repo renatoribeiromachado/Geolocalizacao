@@ -19,7 +19,7 @@
         $read->execute();
     
         require_once "class/Maps.php";
-        $gmaps = new Maps('AIzaSyAjN4QPiqR4h-Aq0ebGfm5RMfba369rmZo');
+        $gmaps = new Maps('');//coloque sua key
         foreach($read->fetchAll(PDO::FETCH_ASSOC) AS $res){
             if($res['idAdress'] != $res['id']){
                 $adress = $res['Endereco']. ' - ' .$cidade;
@@ -138,7 +138,7 @@
             function doNothing() {}
         </script>
         <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjN4QPiqR4h-Aq0ebGfm5RMfba369rmZo&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key="">//coloque sua key
         </script>
     </body>
 </html>
