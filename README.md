@@ -1,2 +1,19 @@
-# Geolocalizacao
-Sistema de localização utilizando o API do Google maps, atraves do endereço fornecido com PHP Mysql
+# About Geolocalização
+
+###### Geolocation is a system that uses Google API, developed in php 7 that shows the marker inside the map through the given address, using MYSQL File for more information database.
+
+## Installation
+
+###### Just download the files and configure the connection in the conexao.php file
+
+## Support
+
+###### Security:  SIf you discover any problems related to security, send an email to renato@acessohost.com.br
+
+## Credits
+
+- [Renato R.Machado](https://github.com/renatoribeiromachado) (Developer)
+
+## License
+
+The MIT License (MIT). Please see [License File]() for more information.
