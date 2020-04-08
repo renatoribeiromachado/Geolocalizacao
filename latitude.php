@@ -1,11 +1,4 @@
 <?php
-/**
- * gMaps Class
- *
- * Pega as informações de latitude, longitude e zoom de um endereço usando a API do Google Maps
- *
- * @author Thiago Belem <contato@thiagobelem.net>
- */
 class gMaps {
   private $mapsKey;
   function __construct($key = null) {
@@ -41,7 +34,7 @@ class gMaps {
   }
 }
 // Instancia a classe
-$gmaps = new gMaps('AIzaSyAjN4QPiqR4h-Aq0ebGfm5RMfba369rmZo');
+$gmaps = new gMaps('');//Coloque sua Key
 // Pega os dados (latitude, longitude e zoom) do endereço:
 $endereco = 'Santo André';
 $dados = $gmaps->geoLocal($endereco);
