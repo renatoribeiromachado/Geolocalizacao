@@ -39,7 +39,7 @@
                         <!--RETURN-->
                         <li role="presentation">
                             <a href="painel.php" title="Sistema">
-                                <i class="glyphicon glyphicon-home"></i> RETORNAR AO SISTEMA INTEC
+                                <i class="glyphicon glyphicon-home"></i> RETORNAR
                             </a>
                         </li>
                     </ul>
@@ -53,7 +53,7 @@
             </div>
             
             <div class="col-md-12 bottom20 bg_blue_bold">
-                <p class="text-center"><i class="glyphicon glyphicon-map-marker"></i> <b>GEOLOCALIZAÇÃO DE OBRAS</b></p>
+                <p class="text-center"><i class="glyphicon glyphicon-map-marker"></i> <b>GEOLOCALIZAÇÃO</b></p>
             </div>
             <?php
                 $get = filter_input(INPUT_GET, 'exe', FILTER_DEFAULT);
